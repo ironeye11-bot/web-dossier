@@ -4,17 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "web-dossier"
-version = "1.0.0"
-description = "URL in. Markdown plus images out. Public web only."
+version = "1.0.1"
+description = "Public URL in. Markdown plus images out. Localhost stays out."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "ironeye11-bot" }]
-keywords = ["cli", "crawler", "markdown", "offline", "ssrf"]
+keywords = ["cli", "crawler", "markdown", "offline", "ssrf", "local-first"]
 classifiers = [
-  "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Topic :: Internet :: WWW/HTTP",
 ]
 dependencies = []
 
@@ -23,6 +29,7 @@ web-dossier = "web_dossier.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/ironeye11-bot/web-dossier"
+Issues = "https://github.com/ironeye11-bot/web-dossier/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
