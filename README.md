@@ -51,6 +51,14 @@ site/assets/…
 - run JavaScript
 - log in
 
+
+## Security
+
+- Only public `http`/`https` on ports 80 and 443
+- No localhost, private LAN, or link-local targets
+- Redirects are checked again against the same rules
+- DNS rebinding between the safety lookup and the socket connect is not ruled out without address pinning (stdlib HTTPS does not pin)
+
 ## Tests
 
 ```bash
