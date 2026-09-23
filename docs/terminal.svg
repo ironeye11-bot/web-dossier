@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="web-dossier terminal">
+  <rect width="980" height="360" rx="16" fill="#0b1220"/>
+  <rect width="980" height="42" rx="16" fill="#151d30"/>
+  <circle cx="28" cy="21" r="7" fill="#ff6b4a"/>
+  <circle cx="52" cy="21" r="7" fill="#ffd36a"/>
+  <circle cx="76" cy="21" r="7" fill="#6ee7b7"/>
+  <text x="28" y="92" fill="#8fb0ff" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">$ web-dossier https://example.com --out ./site</text>
+  <text x="28" y="132" fill="#f4f7ff" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">wrote ./site/dossier.md</text>
+  <text x="28" y="166" fill="#6ee7b7" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">pages 4  images 7</text>
+  <text x="28" y="230" fill="#8fb0ff" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">$ web-dossier http://127.0.0.1/admin</text>
+  <text x="28" y="270" fill="#ff8a7a" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">web-dossier: blocked (private_host)</text>
+</svg>
