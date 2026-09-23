@@ -1,5 +1,9 @@
 # web-dossier
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+
+
 <p align="center">
   <img src="docs/hero.jpg" alt="field dossier" width="100%">
 </p>

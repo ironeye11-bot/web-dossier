@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "web-dossier"
-version = "1.0.1"
+version = "1.0.2"
 description = "Public URL in. Markdown plus images out. Localhost stays out."
 readme = "README.md"
 requires-python = ">=3.10"
